@@ -1,0 +1,242 @@
+.cont{
+    margin: 0 auto;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    max-width: 1500px;
+    padding: 30px 50px;
+    &__card{
+        max-width: 1280px;
+        max-height: 600px;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid lightgreen;
+        border-radius: 10px;
+        @media(max-width: 1000px){
+            display: flex;
+            flex-direction: column;  
+        }
+    }
+    &__rasm{
+        max-width: 1280px;
+        max-height: 1000px;
+        @media(max-width:800px){
+          min-height: 100px;
+          min-width: 200px;
+          background-position: center;
+          background-size: cover;
+        }
+    }
+    &__two{
+        display: flex;
+        align-items: center;
+        @media(max-width: 800px){
+            display: flex;
+            flex-direction: column;
+        }
+        
+    }
+    &__one{
+        display: flex;
+        flex-direction: column;
+    }
+    &__p{
+      padding: 0px 30px;
+      font-size: 15px;
+      @media(max-width:800px){
+        font-size: 12px;
+      }
+    }
+    &__icon{
+        background-color: lightgreen;
+        color: green;
+        border-radius: 100px;
+        padding: 20px 20px;
+        margin: 1px 20px;
+        @media(max-width: 800px){
+            padding: 5px 5px;
+        }
+    }
+    &__h3{
+        padding: 1px 30px;
+        @media(max-width: 800px){
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+    &__galereya{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;    
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    &__biz{
+        color: rgb(70, 67, 67);
+        @media(max-width: 800px){
+            font-size: 12px;
+        }
+    }
+    &__grid{
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 5px;
+        // @media(max-width:800px){
+        //     display: grid;
+        //     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+     
+        // }
+        // padding: 1px 5px;
+    }
+    &__hamma{
+        border-radius: 10px;
+        @media(max-width:800px){
+            height: 20vh;
+            min-height: 200px;
+            min-width: 100px;
+
+        }
+        // max-width: 350px;
+    }
+    &__image{
+        background-image: url(https://fruteacorp-shop.vercel.app/assets/contact-bg-lVnuHQcO.jpg);
+        max-width: 1280px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 50vh;
+        min-height: 400px;
+        border-radius: 10px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 1px;
+        @media(max-width:800px){
+            max-width: 700px;
+            height: 20vh;
+            min-height: 200px;
+
+        }
+    }
+    &__h2{
+        color: rgb(22, 209, 22);
+        padding-top: 30px;
+        font-size: 20px;
+        @media(max-width: 800px){
+            font-size: 14px;
+        }
+    }
+    &__savol{
+        color: white;
+        font-size: 25px;
+        @media(max-width: 800px){
+            font-size: 14px;
+        }
+    }
+    &__phones{
+        color: rgb(22, 175, 22);
+    }
+    &__contact{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    &__phone{
+        color: white;
+        font-size: 18px;
+    }
+    &__pi{
+        color: white;
+        font-size: 18px;
+    }
+    &__round{
+        color: white;
+    }
+    &__icons{
+        display: flex;
+        gap: 20px;
+    }
+    &__ic{
+        color: white;
+        border: 1px solid white;
+        border-radius: 100px;
+        padding: 5px 5px;
+    }
+    &__divs{
+        display: flex;
+        max-width: 1280px;
+        gap: 10px;
+        @media(max-width:1000px){
+            display: flex ;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__shop{
+        max-width: 350px;
+        max-height: 310px;
+        border-radius: 7px;
+    }
+    &__imgs{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border-radius: 7px;
+    }
+    &__alt{
+        max-width: 250px;
+        max-height: 150px;
+        border-radius: 7px;
+    }
+    &__shops{
+        max-width: 250px;
+        max-height: 150px;
+        border-radius: 7px;
+    }
+    &__choy{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 500px;
+        padding: 5px 90px;
+        @media(max-width:800px){
+            min-width: 300px;
+        }
+    }
+    &__max{
+        color: rgb(82, 80, 80);
+        @media(max-width:800px){
+            font-size: 12px;
+        }
+    }
+    &__siz{
+        color: rgb(83, 79, 79);
+        @media(max-width:800px){
+            font-size: 12px;
+        }
+    }
+    &__btn{
+        background-color: rgb(23, 131, 23);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 10px;
+        &:hover{
+           background-color: rgb(20, 214, 20); 
+        }
+    }
+    &__h1{
+        @media(max-width: 800px){
+          font-size: 20px;  
+        }
+    }
+    &__yangi{
+        @media(max-width:800px){
+            font-size: 14px;
+        }
+    }
+}
